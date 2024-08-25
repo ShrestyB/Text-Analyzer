@@ -32,8 +32,9 @@ export default function About(props) {
   let myStyle = {
     color: props.mode === "dark" ? "white" : "#183c71",
     backgroundColor: props.mode === "dark" ? "#183c71" : "white",
-    border: "1px solid",
+    border: "none",
     borderColor: props.mode === "dark" ? "white" : "#183c71",
+    width:"100%",
   };
 
   return (
@@ -55,6 +56,8 @@ export default function About(props) {
               aria-expanded="true"
               aria-controls="collapseOne"
               style={myStyle}
+          
+              
             >
               Analyze your text
             </button>

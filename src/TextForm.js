@@ -47,7 +47,7 @@ export default function TextForm(props) {
             rows="8"
             value={text}
             onChange={handleOnChange}
-            style={{
+            style ={{
               backgroundColor: props.mode === "dark" ? "grey" : "white",
               color: props.mode === "dark" ? "white" : "black",
             }}
