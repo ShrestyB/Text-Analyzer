@@ -56,7 +56,7 @@ function App() {
               <>
                 <Navbar
                   title="Word Counter"
-                  link="Links"
+                  //link="Links"
                   mode={mode}
                   toggleMode={toggleMode}
                 />
@@ -77,7 +77,7 @@ function App() {
               <>
                 <Navbar
                   title="Word Counter"
-                  link="Links"
+                  // link="Links"
                   mode={mode}
                   toggleMode={toggleMode}
                 />
